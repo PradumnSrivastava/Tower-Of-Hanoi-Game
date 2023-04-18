@@ -4,7 +4,6 @@ It is a mathematical Puzzle Problem in which there is 'N' Number of Disks And 3 
 
 There Some Condition For this to solve this problem:
 1-> No Larger Size Disk is placed on smaller size Disk.
-
 2-> at one time you can move only one disk.
 
 ScreenShots->
