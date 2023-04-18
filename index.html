@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <title>Tower of Hanoi</title>
+    <script type="text/javascript" src="js/miscellany.js"></script>
+    <script type="text/javascript" src="js/game.js"></script>
+    <script type="text/javascript" src="js/debug.js"></script>
+    <script type="text/javascript" src="js/input_handler.js"></script>
+    <script type="text/javascript" src="js/point.js"></script>
+    <script type="text/javascript" src="js/element_coordinate_finder.js"></script>
+    <script type="text/javascript" src="js/tower_manager.js"></script>
+    <script type="text/javascript" src="js/game_state.js"></script>
+    <script type="text/javascript" src="js/victory_celebrator.js"></script>
+    <script type="text/javascript" src="js/tower.js"></script>
+    <script type="text/javascript" src="js/disk.js"></script>
+    <script type="text/javascript" src="js/canvas.js"></script>
+    <script type="text/javascript" src="js/colour.js"></script>
+    <script type="text/javascript" src="js/init.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/background.css"/>
+  </head>
+
+  <body>
+
+                     <!--BACKGROUND PART-->
+
+
+    <div class="stars">
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+  </div>
+
+                    <!--CODE PART VISUALISATION-->
+  <section>
+  <canvas id="canvas" width="600" height="300"></canvas>
+  <div id="introduction">
+    <div id="introduction-message">
+      <h1>The Tower of Hanoi</h1>
+      <p>Your objective is to move your entire stack of disks from the first tower to one of the other two towers. There's only one
+        catch&mdash;you may not place a larger disk on top of a smaller one.</p>
+      <a href="aboutgame.html">For More..!!!</a><br><br>
+
+        <input id="start-new-game" type="button" value="Start game" />
+    </div>
+  </div>
+  </section>
+
+                        <!--VICTORY PART-->
+  
+  <section id="victory-notification">
+    <div id="victory-message">
+      <h1>Victory!</h1>
+      <p>Congratulations! You just solve the mystery of the tower.</p>
+      <p><input id="play-again" type="button" value="Play again" /> with
+        <input id="disks-count" type="text" size="2" maxlength="2" value="3" /> disks.</p>
+    </div>
+  </section>
+  <div id="debug"></div>
+  </body>
+</html>
