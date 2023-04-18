@@ -8,7 +8,7 @@ There Some Condition For this to solve this problem:
 
 2-> at one time you can move only one disk.
 
-ScreenShots->
+# ScreenShots->
 
 ![Screenshot 2022-12-16 143603](https://user-images.githubusercontent.com/131151467/232750931-d29e7ea7-d970-4d93-972a-57e3ee7dcb20.png)
 ![Screenshot 2022-12-16 143645](https://user-images.githubusercontent.com/131151467/232750947-c0d51a7b-812f-4871-b1f7-2851afd985bc.png)
